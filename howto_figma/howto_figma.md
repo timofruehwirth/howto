@@ -1,44 +1,42 @@
-# How-To Figma
+# HowTo Figma [^1]
 
-target group: readers w/ and w/o prior knowledge in UI (user interface aka website) design; readers who want to design UIs especially in collaboration w/ others
+Target group: readers interested in (collaborative) UI (unser interface, website) design, with or without prior knowledge in UI design
 
-contents: introduction to using Figma as tool for website design; exemplified by designing a simple UI for a digital-edition project
+Contents: introducing Figma as a tool for UI design, exemplified by designing - step by step - a simple UI for a (fictional) digital-edition project
 
-aims: readers can use Figma to plan and design UIs alone or together w/ others
+Aims: readers can use Figma to (collaboratively) plan and design UIs
 
-scope: all steps to designing a simple UI in the field of DH
+## Introduction
 
-structure: intro to Figma, step-by-step introduction to designing a simple UI for a digital-edition project
+Figma is a tool for collaborative UI design. It can be used for interface mock-up (realistic visual design) and prototyping (realistic visual design plus simulation of interface functionalitites). Mock-up and prototyping will usually not be the first steps in interface design: they will usually be preceded by other steps such as expert interviews, brainstorming, or use case modeling. Most especially, mock-up and prototyping are typically preceded by [wireframing](https://en.wikipedia.org/wiki/Website_wireframe).
 
-(write-up of contents of ide school interface design 21-25 March 2022)
-
-## Introduction to Figma
-
-Figma is a tool for collaborative interface design. It is useful for interface mockup (realistic visual design) and prototyping (realistic visual design including interactive simulation of functionalitites). Those are not typically the first steps in interface design and will usually need to be preceded by other steps such as expert interviews, brainstorming, or use case modeling. Especially, mockup and prototyping should be preceded by wireframing.
-
-## Step-by-Step Mockup
+## First Steps
 
 ### Sign up
 
-Figma can be used through a web-based application accessible via figma.com. There are different pricing options including a free starter plan w/ limitations on files as well as a professional plan that is free for students and educators (accessed in March 2022).
+Figma can be used through a [web-based application](https://www.figma.com/). There are different pricing options including a free `Starter` plan with limited numbers of files as well as `Professional` (free for students and educators) and `Organization` plans (March 2022).
 
 ### Create a Team
 
-If you want to collaborate w/ your project partners, create a team. Right at the start, you will be asked to name your team and to invite your collaborators. For trying Figma, choose the `starter` team plan. (If you want to skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the screen).
+Create a team to collaborate. Right at the start, Figma will ask you to name your team and to invite your collaborators. For trying Figma, choose the `Starter` team plan. (You can work in Figma individually as well. If you want to skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the start screen). In the example project, the team's name is `Awesome Poetry` and consists of two members.
 
-In the example project, the team is called `Awesome Poetry` and consists of two members.
+![image of the Figma start screen](howto_figma_1.png)
+
+## Mock-up
 
 ### Create a Design File
 
-Create a design file by clicking `New design file` or by clicking `+` that will appear next to `Team project` and selecting `Design file`. This will open the workspace view.
+Create a design file by clicking `New design file`, or by clicking the `+` icon that will appear next to `Team project` when you hover over it and selecting `Design file`. This will open the workspace screen.
 
-A good first step is to create a frame; that frame will represent the start page of your website-to-be. When you click on the `Frame` icon in the `Region tools` drop-down (the third icon from right in the top navigation bar of the workspace), the bar on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing your website.
+![image of the Figma workspace screen](howto_figma_2.png)
 
-For the sake of our digital edition of awesome poetry, select the `Desktop` size (1440 x 1024 pixels). Double-click on the name of the frame ("Desktop - 1") to rename it "StartPage". Always give telling names to your objects in order to not get confused--there will soon be many of them.
+The first step is to create a frame that represents the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar of the workspace screen, part of the `Region tools` dropdown menu), the bar on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing your website. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1") to rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
 
 ### Create sub frames
 
-We can now start adding other (sub) frames within the "StartPage" (top) frame to define large areas within the page. Let's first create a navigation bar: select `Frame` and draw an oblong shape in the top part of the page. Rename it "NavBar". The width and height are displayed in the right-hand dialogue area of the workspace. Further below, in the `Fill` segment, you can pick a color. You can see that a dark blue has been chosen. As this color will be used as one of the edition website's signature colors, it can be saved. Next to `Fill`, click on the four dots which the tooltip indicates as the `Styles` button. Then, select `+` and name the color style, say, "EditionBlue". Now, you can always come back to that color easily.
+We can now start adding sub-frames within the "StartPage" top-frame to define large areas within the page. Let's first create a navigation bar: select `Frame` and draw an oblong shape in the top part of the page. In the `Layers` area, rename it "NavBar". The width and height are displayed in the right-hand `Design` area of the workspace screen (and next to the frame whenever selected). Further below, in the `Fill` segment of the `Design` area, you can pick a color. In the example, a dark blue has been chosen. As this color will be used as one of the edition UI's signature colors, it can be saved: next to `Fill`, click on the four-dot icon which the tooltip identifies as the `Styles` button. Then, select `+` and name the color style, say, "EditionBlue". Now, you can easily come back to that color when you need it.
+
+![image of the "StartPage" and "NavBar" frames](howto_figma_3.png)
 
 Add three more frames. A large frame below our "NavBar" as the "MainFrame"; a smaller "FunderFrame"; and an even smaller "ImprintFrame". Give the "MainFrame" an off-white color and save the color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` area of the right-hand dialogue bar, click the four-dot icon and select the "EditionBlue" hue to apply the saved color style; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" grey. In the right-hand `Layers` navigation, arrange the frames according to their position on the page.
 
@@ -158,3 +156,10 @@ you can export css code from figma (developer handshake)
 in order to link from fields/buttons to other pages: select interaction 'on click' 'naviage to' another top-level frame
 
 'scroll to' other frames on same page (animated or not)
+
+
+
+
+
+
+[^1] Based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School Digitale Editionen - Interface-Design, University of Wuppertal, 21-25 Mar 2022.
