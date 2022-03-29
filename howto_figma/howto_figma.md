@@ -18,7 +18,7 @@ Figma can be used through a [web-based application](https://www.figma.com/). The
 
 ### Create a Team
 
-Create a team to collaborate. Right at the start, Figma will ask you to name your team and to invite your collaborators. For trying Figma, choose the `Starter` team plan. (You can work in Figma individually as well. If you want to skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the start screen). In the example project, the team's name is `Awesome Poetry` and consists of two members.
+Create a team to collaborate. Right at the start, Figma will ask you to name your team and to invite your collaborators. For trying Figma, choose the `Starter` team plan. (You can work in Figma individually as well. If you want to skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the start screen). In the example project, the team's name is "Awesome Poetry" and consists of two members.
 
 ![image of the Figma start screen](howto_figma_1.png)
 
@@ -32,31 +32,41 @@ Create a design file by clicking `New design file`, or by clicking the `+` icon 
 
 The first step is to create a frame that represents the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar of the workspace screen, part of the `Region tools` dropdown menu), the bar on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing your website. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1") to rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
 
-### Create sub frames
+### Create Sub-Frames
 
 We can now start adding sub-frames within the "StartPage" top-frame to define large areas within the page. Let's first create a navigation bar: select `Frame` and draw an oblong shape in the top part of the page. In the `Layers` area, rename it "NavBar". The width and height are displayed in the right-hand `Design` area of the workspace screen (and next to the frame whenever selected). Further below, in the `Fill` segment of the `Design` area, you can pick a color. In the example, a dark blue has been chosen. As this color will be used as one of the edition UI's signature colors, it can be saved: next to `Fill`, click on the four-dot icon which the tooltip identifies as the `Styles` button. Then, select `+` and name the color style, say, "EditionBlue". Now, you can easily come back to that color when you need it.
 
 ![image of the "StartPage" and "NavBar" frames](howto_figma_3.png)
 
-Add three more frames. A large frame below our "NavBar" as the "MainFrame"; a smaller "FunderFrame"; and an even smaller "ImprintFrame". Give the "MainFrame" an off-white color and save the color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` area of the right-hand dialogue bar, click the four-dot icon and select the "EditionBlue" hue to apply the saved color style; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" grey. In the right-hand `Layers` navigation, arrange the frames according to their position on the page.
+Add three more frames: a large frame below the "NavBar" as the "MainFrame" of the "StartPage"; a smaller "FunderFrame" below that; and, finally, a slim "ImprintFrame". Fill the "MainFrame" with an off-white color and save that color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` segment of the right-hand `Design` area, click the four-dot icon and select the "EditionBlue" hue to apply the color style that has been saved before; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" grey. In the left-hand `Layers` navigation, arrange the frames according to their position on the page. **Frames and objects that are placed in a high position in the `Layers` area are displayed on top of other frames and objects in the page mock-up in the central window of the workspace screen.**
 
-### Populate w/ Objects
+![image of the "StartPage" top-frame as well as "NavBar", "FunderFrame", and "ImprintFrame" sub-frames](howto_figma_4.png)
 
-You can now start adding objects to the frames. In the `Shape tools` drop-down list (the fourth icon from left in the top navigation bar of the workspace view), pick `Ellipse` and, in the blue navigation bar of your own page draw a circle. Color it in "EditionWhite" and rename it "APLogoShape". Furthermore, add some text onto it (such as "AP") by selecting the `Text` icon (sixth icon from right in top navigation bar of the workspace). You can style that text (font, size, style) via the `Text` section of the right-hand tool space; you can select the "EditionBlue" hue by clicking the four-dot icon next to `Fill`. Rename the text object "APLogoText". Also, add a `Rectangle` as well as a text to represent a drop-down button. Style and rename as "DropDownShape" and "DropDownText", respectively.
+### Populate Frames with Objects
 
-Add three text objects to your "MainFrame": a title, a subtitle, and some introductory text. Also, add a rectangle and a text to represent a search field. In the "FunderFrame", add a shape and text to represent a funder's logo. Moreover, add a text, representing a link, to your "ImprintFrame". Style those objects and rename them as useful. You can arrange their order in the left-hand `Layers` bar--for example, when a text object gets hidden behind a shape object and is no longer visible.
+You can now start adding objects to the frames. In the `Shape tools` dropdown list (the fourth drop-down button from left in the top navigation bar of the workspace screen), pick `Ellipse` and, in the blue navigation bar of your own page, draw a circle as a logo placeholder. Color it in "EditionWhite" and rename it "APLogoShape". Add some text onto it (such as "AP") by selecting the `Text` icon (the sixth button from left in top navigation bar of the workspace). You can style that text (font, size, style) via the `Text` section of the right-hand `Design` area: select the "EditionBlue" hue by clicking the four-dot icon next to `Fill`. Rename the text object "APLogoText".
+
+Furthermore, add a rectangular shape as well as some text to represent a drop-down button in the "NavBar" of your "StartPage". Style and rename as "DropDownShape" and "DropDownText", respectively.
+
+Add three text objects to your "MainFrame": a title, a subtitle, and some placeholder text, representing an introduction to your edition website. Also, add a rectangle and a text to stand for a search field. In the "FunderFrame", add a shape and text to represent some funder's logo. Moreover, add a text, representing a link, to your "ImprintFrame". Style those objects and rename them in useful ways. (Re-)arrange their order in the left-hand `Layers` bar - especially, when one object gets hidden behind another and is no longer visible.
+
+![image of the "StartPage" top-frame, sub-frames, as well as individual shape and text objects](howto_figma_5.png)
 
 ### Group Objects Together
 
-It is useful to group together objects that belong together, for example, objects that together constitute a more complex object. In the `Layers` bar, select both "APLogoText" and "APLogoShape", right-click them, and select `Group selection`. Rename the created group "APLogo". Likewise, create "DropDown", "StartPageText", "SearchFunction", and "Logo" groups. Select those group names in the `Layers` area in order to target the complex objects (instead of their parts). (At this point, you might wish to collapse the layers in the `Layers` area below the group level.)
+It is useful to group together objects that belong together: for example, objects which, together, constitute a more complex single object. In the `Layers` area, select both "APLogoText" and "APLogoShape", right-click them, and select `Group selection`. Groups are symbolized in the `Layers`area through dashed-line rectangles: rename the created group "APLogo". Likewise, create "DropDown", "StartPageText", "SearchFunction", and "Logo" groups. When you select those group names in the `Layers` area, you can target the whole complex objects (instead of just their parts). (For the sake of clarity, you might wish to collapse the layers in the `Layers` area which are below the group level.)
+
+![image of the "StartPage" top-frame with sub-frames and object groups](howto_figma_6.png)
 
 ### Create Components
 
-If there are objects, or complex objects (groups), that are used more than once in unaltered form, you can create components that can be easily reused. In the `Layers` area, right-click the "Logo" group and select `Create component`. (You can also click the `Create component` icon in the middle of the top bar of the workspace.) As a component, it is now highlighted in purple color.
+If there are objects, either simple or complex (groups), that are used more than once, you can create components out of them which can be easily reused. In the `Layers` area, right-click the "Logo" group and select `Create component`. (You can also click the `Create component` icon in the middle of the top bar of the workspace screen.) As a component, it is now highlighted in purple color. Change the view in the right-hand window from `Layers` to `Assets`. In that area, you will now find the "Logo" component in the "StartPage" segment. From here, you can drag-and-drop that component multiple times onto the "FunderFrame" to represent several funder logos. Please note, that if you change the original component (designated by a four-diamond icon in the `Layers` area), all its instances (single-diamond icons) will be changed in like fashion. On the other hand, if a component's instance is changed, the other instances as well as the original component will remain unaltered.
 
-Change the view from `Layers` to `Assets`. In that area, you will find the "Logo" component below "StartPage". From here, you can drag-and-drop that component multiple times onto the "FunderFrame" to represent the logos of several funders. Please note, that if you change the original component (designated by a four-diamond icon in the `Layers` area), all its instances (rombic-shape icon) will be changed in like fashion. On the other hand, if a component's instance is changed, the other instances as well as the original component will remain unaltered.
+![image of the `Assets` area holding a "Logo" component](howto_figma_7.png)
 
-At this point, you might wish to see your page in presentation mode (rather than work mode). For this, click the `Present` arrow (second button from right in the workspace navigation bar). The work mode will remain active in another tab.
+Congratulations! You have successfully created a mock-up for the UI of a digital-edition project. 
+
+At this point, you might well wish to see your page in presentation mode (rather than work mode). For this, click the `Present` button (second button from right in the workspace navigation bar). A new tab will open in your browser while the work mode will remain active in the original tab. In the `Options` dropdown list, select `Fit to screen` to see your "StartPage" in its entirety.
 
 ## Prototyping Interactive Functionality
 
@@ -162,4 +172,4 @@ in order to link from fields/buttons to other pages: select interaction 'on clic
 
 
 
-[^1] Based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School Digitale Editionen - Interface-Design, University of Wuppertal, 21-25 Mar 2022.
+[^1]: Based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School *Digitale Editionen - Interface-Design*, University of Wuppertal, 21-25 Mar 2022.
