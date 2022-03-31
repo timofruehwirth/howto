@@ -38,7 +38,7 @@ We can now start adding sub-frames within the "StartPage" top-frame to define la
 
 ![image of the "StartPage" and "NavBar" frames](howto_figma_03.png)
 
-Add three more frames: a large frame below the "NavBar" as the "MainFrame" of the "StartPage"; a smaller "FunderFrame" below that; and, finally, a slim "ImprintFrame". Fill the "MainFrame" with an off-white color and save that color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` segment of the right-hand `Design` area, click the four-dot icon and select the "EditionBlue" hue to apply the color style that has been saved before; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" grey. In the left-hand `Layers` navigation, arrange the frames according to their position on the page. **Frames and objects that are placed in a high position in the `Layers` area are displayed on top of other frames and objects in the page mock-up in the central window of the workspace screen.**
+Add three more frames: a large frame below the "NavBar" as the "MainFrame" of the "StartPage"; a smaller "FunderFrame" below that; and, finally, a slim "ImprintFrame". Fill the "MainFrame" with an off-white color and save that color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` segment of the right-hand `Design` area, click the four-dot icon and select the "EditionBlue" hue to apply the color style that has been saved before; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" gray. In the left-hand `Layers` navigation, arrange the frames according to their position on the page. **Frames and objects that are placed in a high position in the `Layers` area are displayed on top of other frames and objects in the page mock-up in the central window of the workspace screen.**
 
 ![image of the "StartPage" top-frame as well as "NavBar", "FunderFrame", and "ImprintFrame" sub-frames](howto_figma_04.png)
 
@@ -74,7 +74,7 @@ By means of adding even more objects, groups, and components (to represent, for 
 
 Suppose that the "ImprintText" object on the bottom of your "StartPage" is meant to represent a link to another page containing information about the website's publisher. So, let's first build another page. Create a second desktop frame as you did above. It might be useful now to zoom out of the central window of the Figma workspace screen so that you can see both pages. Rename the new page from "Desktop - 1" to "ImprintPage". While we leave that new page blank, you will usually want to design it in a way that is similar to your "StartPage". (Among other things, you might want to create a "NavBar" component and add it to the top of all of your pages.)
 
-Turn the "ImprintText" object into a component (as was done above). Subsequently, drag-and-drop it from the "StartPage" frame into the grey area that surrounds it. That way, we can separate the orignal component from its instances to edit it. In the `Layers` bar, the "ImprintText" component will, therefore, no longer be shown within the "StartPage" hierarchy, but on the same level as both the "StartPage" and the "ImprintPage".
+Turn the "ImprintText" object into a component (as was done above). Subsequently, drag-and-drop it from the "StartPage" frame into the gray area that surrounds it. That way, we can separate the orignal component from its instances to edit it. In the `Layers` bar, the "ImprintText" component will, therefore, no longer be shown within the "StartPage" hierarchy, but on the same level as both the "StartPage" and the "ImprintPage".
 
 We can now create two different variants of our "ImprintText" component that correspond to two different types of user interaction:
 1. "Default": when there is no user interaction,
@@ -98,80 +98,54 @@ The "ImprintText" component is now fully configured, and an instance of it can b
 
 ### A More Complex Example: Create a Dropdown List
 
-There is an empty "Drop-down" button in our "NavBar"
+There is an empty dropdown button in our "NavBar", which we can now prototype as well. Proceed as before: create a component out of the "DropDown" group, and drag-and-drop it into the gray area outside your pages. Create a "Hover" variant, which you can style by inverting its colors ("EditionBlue" text and border colors, "EditionWhite" fill color). Add an interaction that is triggered by a `Hover` event.
 
+![image of the two variants of the "DropDown" component with interaction details](howto_figma_11.png)
 
-...
+We now have to design three states of the dropdown list to represent three different types of user interaction once they have clicked the dropdown button:
+1. "Click": when a user clicks on the button (the dropdown list opens, the button has an "EditionBlue" fill color, the two options have an "EditionWhite" fill color),
+2. "Hover1: when a user's cursor hovers over the first option of the open dropdown list (the button and the first option are blue, the second option is white),
+3. "Hover2": when a user's cursor hovers over the second option (the button and the second option are blue, the first option is white).
 
-select lower variant
-click +
-copy all objects from ...
-hightlight variant 3 object
-paste
+In the gray area of the central window, somewhere below the "DropDown" variant, design those three states. For this, you can copy-paste the "DropDownText" and "DropDownShape" objects from the "DropDown" component in the `Layers` area and combine them to design the three versions described above. All of these versions should have three segments: a button ("Drop-down") and two fields representing links to other pages ("Somewhere" and "Nowhere"). Group the objects that belong together and rename the groups "DropDownOpen", "DropDownOpenHover1", and "DropDownOpenHover2".
 
-rename Variant3 into Click
-Variant4: Hover1
-Variant5: Hover2
+![image of the two variants of the "DropDown" component as well as groups representing the three different states of the open dropdown list](howto_figma_12.png)
 
-On Click change to Default
-While hovering change to Hover1
-While hovering change to Hover2
+Now, the groups representing the three different states of the opened dropdown list can be used as different variants of the "DropDown" component. So, select the "Hover" variant of the "DropDown" component and click on the `+`; rename "Variant3" to "Click". Enlarge the purple dash-line rectable that delimits the component variants. In the left-hand `Layers` area, select and copy all objects of the "DropDownOpen" group.
 
-fairly complex network of interrelations
+![image of the three variants of the "DropDown" component as well as the highlighted objects of the "DropDownOpen" group](howto_figma_13.png)
 
-drag-and-drop from Assets to NavBar frame of StartPage
-however, in Layers move from NavBar frame to StartPage frame (otherwise appearance restricted to the NavBar frame space)
+In the main windown, highlight the "Click" variant and paste the objects from the clipboard (a shortcut will work out best, so use `Ctrl`+`v` in Windows or `command`+`v` on a Mac). The copied objects will now be shown in the `Layers` area to form part of the "Click" variant. (Here, you might see the "DropDownText" and "DropDownShape" of the original variant that has been overwritten are still around as part of the "Click" variant; you can safely delete them.)
 
-click play
+![image of the three variants of the "DropDown" component with the objects of the "DropDownOpen" group having been pasted into the "Click" variant](howto_figma_14.png)
 
-easy to see how dropdown instances can be customized:
-change texts, create interactions to link to other pages (still to be created) upon click events
+In the `Prototype` area, create an interaction that links the "Hover" variant to the "Click" variant (`On click` - `Change to` - "Click").
 
-add link to sample page
+Now, create two more variants, overwrite them with the two other groups designed below, and rename them "Hover1" and "Hover2", respectively. In the `Prototype` area, prototype the following user interactions:
+- when a user clicks on the "Drop-down" button of the "Click" variant, change back to the "Default" variant (`On click` - `Change to` - "Default"),
+- when a user's cursor hovers over the "Somewhere" field of the "Click" variant, change to the "Hover1" variant (`While hovering` - `Change to` - "Hover1"),
+- when a user's cursor hovers over the "Nowhere" field of the "Click" variant, change to "Hover2" (`While hovering` - `Change to` - "Hover2").
 
-alternative ways to reach same objectives;
-many more objectives;
-large number of tutorials
+![image of the three variants of the "DropDown" component with interaction details](howto_figma_15.png)
 
+Furthermore, create another page ("SomePage") and make Figma navigate to it when a user clicks on the "Somewhere" field of the "Hover1" variant (`On click`- `Navigate to` - "SomePage").
 
+The "DropDown" component is now fully configured. From the `Assets` area, drag-and-drop it to the "NavBar" of your "StartPage". It is necessary, however, to move its instance, in the `Layers` view, from the "NavBar" sub-frame up to the "StartPage" top-frame (as its appearance will otherwise be limited to the space of the "NavBar" sub-frame).
 
+![image of an instance of the "DropDown" component within the "StartPage" top-frame](howto_figma_16.png)
 
- In the `Layers` area, select, first, "DropDownText" (in the layer beneath the "Hover" component variant) and, second, "DropDownShape", and inverse the colors ("EditionBlue" for the text, "EditionWhite" for the shape). Leave the "Default" variant as it is.
+As long as the `Prototype` view is active, you will see a fairly complex network of interrelations between component variants as well as links between variants and pages.
 
-However, we need another variant to simulate what happens when a user actually clicks on the button. Highlight the "Hover" variant in the central screen and click on the `+`. In the right-hand `Variants` area, rename "Variant3" into "Click". 
+![image of the three variants of the "DropDown" component with interaction and navigation details](howto_figma_17.png)
 
+In the presentation mode, try out the user interactivity added to your website prototype.
 
-eg: hover state and default state as two variants of a button component
+![image of the "StartPage" in presentation mode with opened dropdown list](howto_figma_18.png)
 
-'variants + in' right-hand side bar
+## Outlook
 
-eg property is "state"
+At this point, it may have become easy to see how a UI prototype could easily be further enriched by adding components whose variants and the interrelations created between them can add to realistically simulating interactive functionality. It should be noted that there are many more functions beyond those which have been introduced above (such as using Figma's `Constraints` function to make your pages responsive, or exporting CSS code from Figma). There is much community-driven support (both text and video) online that will help you to explore the full potentials of Figma and solve specific problems that you might encounter. You will also find a large number of public plugins for standard functionalities (such as dropdown menus).
 
-name variants eg state=default and state=hover
-
-add interaction
-
-tab prototype
-
-select one state, select interaction +
-
-choose interaction for first state, such as 'while hovering' 'change to' second state
-
-add component (again) where you need it and the interaction will be added
-
-(there are many public plugins that can be tapped for standard functionalities such as drop-down menus etc.)
-
-constraints can be used for responsiveness
-
-you can export css code from figma (developer handshake)
-
-in order to link from fields/buttons to other pages: select interaction 'on click' 'naviage to' another top-level frame
-
-'scroll to' other frames on same page (animated or not)
-
-
-
-
-
+Find the Figma design file used as an example in the above introduction [here](https://www.figma.com/file/XQVUuaMIQqOkVWp5Z0yLXi/Untitled).
 
 [^1]: Based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School *Digitale Editionen - Interface-Design*, University of Wuppertal, 21-25 Mar 2022.
