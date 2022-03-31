@@ -4,7 +4,10 @@ Target group: readers interested in (collaborative) UI (unser interface, website
 
 Contents: introducing Figma as a tool for UI design, exemplified by designing - step by step - a simple UI for a (fictional) digital-edition project
 
-Aims: readers can use Figma to (collaboratively) plan and design UIs
+Aims: readers can use Figma to (collaboratively) design and prototype UIs
+- readers can sign up to Figma and create teams
+- readers can create mock-ups in Figma
+- readers can prototype interactive functionality in Figma including links and simple dropdown lists
 
 ## Introduction
 
@@ -144,7 +147,7 @@ In the presentation mode, try out the user interactivity added to your website p
 
 ## Outlook
 
-At this point, it may have become easy to see how a UI prototype could easily be further enriched by adding components whose variants and the interrelations created between them can add to realistically simulating interactive functionality. It should be noted that there are many more functions beyond those which have been introduced above (such as using Figma's `Constraints` function to make your pages responsive, or exporting CSS code from Figma). There is much community-driven support (both text and video) online that will help you to explore the full potentials of Figma and solve specific problems that you might encounter. You will also find a large number of public plugins for standard functionalities (such as dropdown menus).
+At this point, it may have become easy to see how a UI prototype could easily be further enriched by adding components whose variants and the interrelations created between them can add to realistically simulating interactive functionality. It should be noted that there are many more functions beyond those which have been introduced above (such as using Figma's `Constraints` function to make your pages responsive, or exporting CSS code from Figma). There is much community-driven support (both text and video) online that will help you to explore the full potentials of Figma and solve specific problems that you might encounter. [Figma's Support Forum](https://forum.figma.com/) might be a good starting point for getting help and interacting with community members. You will also find a large number of public plugins for standard functionalities (such as dropdown menus).
 
 Find the Figma design file used as an example in the above introduction [here](https://www.figma.com/file/XQVUuaMIQqOkVWp5Z0yLXi/Untitled).
 
