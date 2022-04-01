@@ -118,7 +118,7 @@ Now, the groups representing the three different states of the opened dropdown l
 
 ![image of the three variants of the "DropDown" component as well as the highlighted objects of the "DropDownOpen" group](howto_figma_13.png)
 
-In the main windown, highlight the "Click" variant and paste the objects from the clipboard (a shortcut will work out best, so use `Ctrl`+`v` in Windows or `command`+`v` on a Mac). The copied objects will now be shown in the `Layers` area to form part of the "Click" variant. (Here, you might see the "DropDownText" and "DropDownShape" of the original variant that has been overwritten are still around as part of the "Click" variant; you can safely delete them.)
+Further below in the `Layers` area, highlight the "Click" variant and paste the objects from the clipboard (use a keyboard shortcut to paste). The copied objects will now be shown in the `Layers` area to form part of the "Click" variant. (You might also see here the "DropDownText" and "DropDownShape" of the original variant that has been overwritten, which are still around as part of the "Click" variant; you can safely delete them.)
 
 ![image of the three variants of the "DropDown" component with the objects of the "DropDownOpen" group having been pasted into the "Click" variant](howto_figma_14.png)
 
