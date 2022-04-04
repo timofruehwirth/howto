@@ -1,6 +1,6 @@
 # HowTo Figma [^1]
 
-Target group: readers interested in (collaborative) UI (unser interface, website) design, with or without prior knowledge in UI design
+Target group: readers who want to learn about (collaborative) UI (user interface, website) design, with or without prior knowledge in UI design
 
 Contents: introducing Figma as a tool for UI design, exemplified by designing - step by step - a simple UI for a (fictional) digital-edition project
 
