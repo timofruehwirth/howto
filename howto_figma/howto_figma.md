@@ -2,56 +2,58 @@
 
 Target group: readers who want to learn about (collaborative) UI (user interface, website) design, with or without prior knowledge in UI design
 
-Contents: introducing Figma as a tool for UI design, exemplified by designing - step by step - a simple UI for a (fictional) digital-edition project
+Contents: introduction of Figma as a tool for (collaborative) UI design, exemplified by creating a mock-up/prototype of the start page of a digital edition's website
 
-Aims: readers can use Figma to (collaboratively) design and prototype UIs
+Aims:
 - readers can sign up to Figma and create teams
 - readers can create mock-ups in Figma
-- readers can prototype interactive functionality in Figma including links and simple dropdown lists
+- readers can prototype UI functionality in Figma, including links and simple dropdown lists
 
 ## Introduction
 
-Figma is a tool for collaborative UI design. It can be used for interface mock-up (realistic visual design) and prototyping (realistic visual design plus simulation of interface functionalitites). Mock-up and prototyping will usually not be the first steps in interface design: they will usually be preceded by other steps such as expert interviews, brainstorming, or use case modeling. Most especially, mock-up and prototyping are typically preceded by [wireframing](https://en.wikipedia.org/wiki/Website_wireframe).
+Figma is a tool for collaborative UI design. It can be used both for interface mock-up (realistic visual design) and prototyping (realistic visual design plus simulation of interface functionalitites). Please note that mock-up and prototyping will usually not be the first steps in UI design: other steps in the requirement analysis (such as expert interviews, brainstorming, or use case modeling) will commonly pave the way for creating specific designs. Most especially, mock-up and prototyping are typically immediately preceded by pen-and-paper [wireframing](https://en.wikipedia.org/wiki/Website_wireframe).
 
 ## First Steps
 
-### Sign up
+### Sign Up
 
-Figma can be used through a [web-based application](https://www.figma.com/). There are different pricing options including a free `Starter` plan with limited numbers of files as well as `Professional` (free for students and educators) and `Organization` plans (March 2022).
+Figma can be used through a [web-based application](https://www.figma.com/). There are different pricing options including a free `Starter` plan with limited numbers of files, as well as `Professional` (free for students and educators) and `Organization` plans (April 2022).
 
 ### Create a Team
 
-Create a team to collaborate. Right at the start, Figma will ask you to name your team and to invite your collaborators. For trying Figma, choose the `Starter` team plan. (You can work in Figma individually as well. If you want to skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the start screen). In the example project, the team's name is "Awesome Poetry" and consists of two members.
+Create a team to collaborate. Right at the start, Figma will ask you to name your team and invite your collaborators. Choose the `Starter` team plan for trying Figma. (You can work in Figma individually as well. If you skip creating a team for now, you can later select `+ Create new team` in the bottom-left part of the Figma start screen).
+
+In our example project, the team's name is "Awesome Poetry" (next to the blue square on the left).
 
 ![image of the Figma start screen](howto_figma_01.png)
 
-## Mock-up
+## Mock-Up
 
 ### Create a Design File
 
-Create a design file by clicking `New design file`, or by clicking the `+` icon that will appear next to `Team project` when you hover over it and selecting `Design file`. This will open the workspace screen.
+To design a mock-up for our example project, create a new design file by clicking `New design file` (or by clicking the `+` icon that will appear next to `Team project` when you hover over it and selecting `Design file`). That will open the Figma workspace screen.
 
 ![image of the Figma workspace screen](howto_figma_02.png)
 
-The first step is to create a frame that represents the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar of the workspace screen, part of the `Region tools` dropdown list), the bar on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing your website. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1") to rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
+The first step is to create a frame to represent the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar of the workspace screen, the default choice of the `Region tools` dropdown list), the `Design` area on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing websites. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1" or so) and rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
 
 ### Create Sub-Frames
 
-We can now start adding sub-frames within the "StartPage" top-frame to define large areas within the page. Let's first create a navigation bar: select `Frame` and draw an oblong shape in the top part of the page. In the `Layers` area, rename it "NavBar". The width and height are displayed in the right-hand `Design` area of the workspace screen (and next to the frame whenever selected). Further below, in the `Fill` segment of the `Design` area, you can pick a color. In the example, a dark blue has been chosen. As this color will be used as one of the edition UI's signature colors, it can be saved: next to `Fill`, click on the four-dot icon which the tooltip identifies as the `Styles` button. Then, select `+` and name the color style, say, "EditionBlue". Now, you can easily come back to that color when you need it.
+We can now start adding sub-frames within the "StartPage" top-frame to define large areas within that page. Let's first create a navigation bar: select `Frame` and draw an oblong shape in the top part of your page. In the `Layers` area, rename it "NavBar". The width and height are displayed in the right-hand `Design` area (and next to the frame when selected). Further below, in the `Fill` segment of the `Design` area, you can pick a color. In the example, a dark blue has been chosen. As that hue will be used as one of the edition UI's signature colors, it can be saved: next to `Fill`, click on the four-dot icon which the tooltip will identify as `Styles` button. Then, select `+` and name the color style, say, "EditionBlue". Now, you can easily come back to that color whenever you need it.
 
-![image of the "StartPage" and "NavBar" frames](howto_figma_03.png)
+![image of the "StartPage" top-frame and the "NavBar" sub-frame](howto_figma_03.png)
 
-Add three more frames: a large frame below the "NavBar" as the "MainFrame" of the "StartPage"; a smaller "FunderFrame" below that; and, finally, a slim "ImprintFrame". Fill the "MainFrame" with an off-white color and save that color as "EditionWhite". Give the "FunderFrame" a thin border: in the `Stroke` segment of the right-hand `Design` area, click the four-dot icon and select the "EditionBlue" hue to apply the color style that has been saved before; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" gray. In the left-hand `Layers` navigation, arrange the frames according to their position on the page. **Frames and objects that are placed in a high position in the `Layers` area are displayed on top of other frames and objects in the page mock-up in the central window of the workspace screen.**
+Add three more sub-frames: a large frame below the "NavBar" as the "MainFrame"; a smaller "FunderFrame" below that; and, finally, a slim "ImprintFrame" on the bottom of your "StartPage". Fill the "MainFrame" with an off-white color and save that color as "EditionWhite". Give the "FunderFrame" a thin blue border: in the `Stroke` segment of the `Design` area, click the four-dot icon and select the "EditionBlue" hue to apply the color style that has been saved before; set the line width to "1". Leave the "FunderFrame" white and make the "ImprintFrame" gray. In the left-hand `Layers` navigation, arrange the frames according to their position on the page.
 
 ![image of the "StartPage" top-frame as well as "NavBar", "FunderFrame", and "ImprintFrame" sub-frames](howto_figma_04.png)
 
 ### Populate Frames with Objects
 
-You can now start adding objects to the frames. In the `Shape tools` dropdown list (the fourth drop-down button from left in the top navigation bar of the workspace screen), pick `Ellipse` and, in the blue navigation bar of your own page, draw a circle as a logo placeholder. Color it in "EditionWhite" and rename it "APLogoShape". Add some text onto it (such as "AP") by selecting the `Text` icon (the sixth button from left in top navigation bar of the workspace). You can style that text (font, size, style) via the `Text` section of the right-hand `Design` area: select the "EditionBlue" hue by clicking the four-dot icon next to `Fill`. Rename the text object "APLogoText".
+You can now start adding objects to the frames. In the `Shape tools` dropdown list (the fourth drop-down button from left in the top area of the workspace screen), pick `Ellipse` and, in the blue "NavBar" of your page, draw a circle as a logo placeholder. Color it in "EditionWhite" and rename it "APLogoShape". Add some text onto it (such as "AP") by selecting the `Text` icon (the sixth button from left). You can style that text via the `Text` section of the `Design` area: again, select the "EditionBlue" hue by clicking the four-dot icon next to `Fill`. Rename the text object "APLogoText".
 
-Furthermore, add a rectangular shape as well as some text to represent a drop-down button in the "NavBar" of your "StartPage". Style and rename as "DropDownShape" and "DropDownText", respectively.
+Furthermore, add a rectangular shape as well as some text to represent a drop-down button in the "NavBar". Style and rename as "DropDownShape" and "DropDownText", respectively.
 
-Add three text objects to your "MainFrame": a title, a subtitle, and some placeholder text, representing an introduction to your edition website. Also, add a rectangle and a text to stand for a search field. In the "FunderFrame", add a shape and text to represent some funder's logo. Moreover, add a text, representing a link, to your "ImprintFrame". Style those objects and rename them in useful ways. (Re-)arrange their order in the left-hand `Layers` bar - especially, when one object gets hidden behind another and is no longer visible.
+Add three text objects to your "MainFrame": a title, a subtitle, and some placeholder text, representing an introduction to your edition website. Also, add a rectangle and a text to stand for a search field. In the "FunderFrame", add a shape and text to represent some funder's logo. Moreover, add a text, representing a link, to your "ImprintFrame". Style those objects and rename them in useful ways. Rearrange their order in the left-hand `Layers` bar if one object gets hidden behind another and is no longer visible. **Elements that are placed in a high position in the `Layers` area are displayed on top of other elements in the page design in the central window of the workspace screen.**
 
 ![image of the "StartPage" top-frame, sub-frames, as well as individual shape and text objects](howto_figma_05.png)
 
