@@ -79,7 +79,7 @@ You have now created a simple mock-up for the start page of a digital-edition UI
 
 ## Prototyping
 
-What is more, Figma lets you also prototype interface functionality by simulating user interactivity and navigation (both between pages and within different areas of the same page).
+What is more, Figma lets you also prototype interface functionality by simulating user interactivity and linking.
 
 ### An Easy Example: Create a Link to Another Page
 
