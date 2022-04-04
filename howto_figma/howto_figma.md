@@ -35,7 +35,9 @@ To design a mock-up for our example project, create a new design file by clickin
 
 ![image of the Figma workspace screen](howto_figma_02.png)
 
-The first step is to create a frame to represent the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar of the workspace screen, the default choice of the `Region tools` dropdown list), the `Design` area on the right-hand side will offer predefined sizes of frames that correspond to different devices for accessing websites. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1" or so) and rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
+Take a moment to orient yourself. There is a dark gray bar on the top with several icons on the left and the file name in the middle (still "Untitled"); a `Layers` area on the left-hand side; and a `Design` area on the right-hand side of the workspace screen. Click on the file name and rename the file "ap_mockup".
+
+The first step is to create a frame to represent the start page of your future website. When you click on the `Frame` icon (the third icon from left in the top navigation bar, the default choice of the `Region tools` dropdown list), the right-hand `Design` area will offer predefined sizes of frames that correspond to different devices for accessing websites. For our digital edition of awesome poetry, select `Desktop` size (1440 x 1024 px). In the left-hand `Layers` area, double-click the name of the frame ("Desktop - 1" or so) and rename it "StartPage". **It is always good to give telling names to your objects in order not to get confused - there will soon be a lot of them.**
 
 ### Create Sub-Frames
 
@@ -55,68 +57,72 @@ Furthermore, add a rectangular shape as well as some text to represent a drop-do
 
 Add three text objects to your "MainFrame": a title, a subtitle, and some placeholder text, representing an introduction to your edition website. Also, add a rectangle and a text to stand for a search field. In the "FunderFrame", add a shape and text to represent some funder's logo. Moreover, add a text, representing a link, to your "ImprintFrame". Style those objects and rename them in useful ways. Rearrange their order in the left-hand `Layers` bar if one object gets hidden behind another and is no longer visible. **Elements that are placed in a high position in the `Layers` area are displayed on top of other elements in the page design in the central window of the workspace screen.**
 
-![image of the "StartPage" top-frame, sub-frames, as well as individual shape and text objects](howto_figma_05.png)
+![image of the "StartPage" frames populated with shape and text objects](howto_figma_05.png)
 
 ### Group Objects Together
 
-It is useful to group together objects that belong together: for example, objects which, together, constitute a more complex single object. In the `Layers` area, select both "APLogoText" and "APLogoShape", right-click them, and select `Group selection`. Groups are symbolized in the `Layers`area through dashed-line rectangles: rename the created group "APLogo". Likewise, create "DropDown", "StartPageText", "SearchFunction", and "Logo" groups. When you select those group names in the `Layers` area, you can target the whole complex objects (instead of just their parts). (For the sake of clarity, you might wish to collapse the layers in the `Layers` area which are below the group level.)
+It is useful to group together objects that belong together: for example, objects which constitute a more complex single object. In the `Layers` area, select both "APLogoText" and "APLogoShape", right-click them (or perform whatever action, on your device, corresponds to pressing the right-hand button on a mouse), and select `Group selection`. Groups are symbolized in the `Layers`area through dashed-line rectangles: rename the so created group "APLogo". Likewise, create "DropDown", "StartPageText", "SearchFunction", and "Logo" groups. When you select those group names in the `Layers` area, you can target the whole complex objects (instead of just their parts). (In order to overview the elements of your page, you might wish to collapse those layers in the `Layers` area which are below the group level.)
 
-![image of the "StartPage" top-frame with sub-frames and object groups](howto_figma_06.png)
+![image of the "StartPage" frames with object groups](howto_figma_06.png)
 
 ### Create Components
 
-If there are objects, either simple or complex (groups), that are used more than once, you can create components out of them which can be easily reused. In the `Layers` area, right-click the "Logo" group and select `Create component`. (You can also click the `Create component` icon in the middle of the top bar of the workspace screen.) As a component, it is now highlighted in purple color. Change the view in the right-hand window from `Layers` to `Assets`. In that area, you will now find the "Logo" component in the "StartPage" segment. From here, you can drag-and-drop that component multiple times onto the "FunderFrame" to represent several funder logos. Please note, that if you change the original component (designated by a four-diamond icon in the `Layers` area), all its instances (single-diamond icons) will be changed in like fashion - that is one of the key benefits of using components. On the other hand, if a component's instance is changed, the other instances as well as the original component will remain unaltered. 
+If there are objects or groups that are used more than once, you can create components out of them for easy reuse. In the `Layers` area, right-click the "Logo" group (the placeholder funder logo) and select `Create component`. (You can also click the `Create component` icon in the middle of the top bar of the workspace screen.) As a component, it is now highlighted in purple color.
 
-![image of the `Assets` area holding a "Logo" component](howto_figma_07.png)
+Now, change the view in the left-hand window from `Layers` to `Assets` by clicking the `Assets` tab. In that tab, you will find the "Logo" component below the "StartPage" segment. From here, you can drag-and-drop that component multiple times onto the "FunderFrame" to represent several funder logos.
 
-You have now created a simple mock-up for the start page of a digital-edition UI. At this point, you might well wish to see your page in presentation mode (rather than work mode). For that, click the `Present` button (second button from right in the workspace navigation bar). A new tab will open in your browser while the work mode will remain active in the original tab. In the `Options` dropdown list, select `Fit to screen` to see your "StartPage" in its entirety.
+It is important to note, that if you change the original component (designated by a four-diamond icon in the `Layers` tab), all its instances (single-diamond icon) will be changed in like fashion (which is one of the key benefits of using components). On the other hand, if a component's instance is changed, the other instances as well as the original component will remain unaltered. 
+
+![image of the `Assets` area holding a "Logo" component and several "Logo" components being inserted in the "ImprintFrame"](howto_figma_07.png)
+
+You have now created a simple mock-up for the start page of a digital-edition UI. By means of adding even more objects, groups, and components (to represent, for instance, images as well as further buttons and input fields), you can create visually realistic mock-ups of website pages. At this point, you might well wish to see your page in presentation mode (rather than work mode). For that, click the `Present` button (second button from right in the workspace top bar). In the `Options` dropdown list, select `Fit to screen` to admire your "StartPage" in its entirety.
 
 ## Prototyping
 
-By means of adding even more objects, groups, and components (to represent, for instance, images as well as further buttons and input fields), you can create visually realistic mock-ups of website pages. However, Figma lets you also prototype interface functionality by simulating user interactivity and navigation between pages as well as within different areas of the same page.
+What is more, Figma lets you also prototype interface functionality by simulating user interactivity and navigation (both between pages and within different areas of the same page).
 
 ### An Easy Example: Create a Link to Another Page
 
-Suppose that the "ImprintText" object on the bottom of your "StartPage" is meant to represent a link to another page containing information about the website's publisher. So, let's first build another page. Create a second desktop frame as you did above. It might be useful now to zoom out of the central window of the Figma workspace screen so that you can see both pages. Rename the new page from "Desktop - 1" to "ImprintPage". While we leave that new page blank, you will usually want to design it in a way that is similar to your "StartPage". (Among other things, you might want to create a "NavBar" component and add it to the top of all of your pages.)
+Suppose that the "ImprintText" object on the bottom of your "StartPage" is meant to represent a link to another page containing information about the website's publisher. So, let's first build another page. Create a second desktop top-frame as you did above. It might be useful now to zoom out of the central window of the Figma workspace screen so that you can see both of your pages. Rename the new page to "ImprintPage". (While we are leaving that new page blank, you will usually want to design it in a way that is similar to your "StartPage". Among other things, you might well want to create a "NavBar" component and add it to the top of all of your pages.)
 
-Turn the "ImprintText" object into a component (as was done above). Subsequently, drag-and-drop it from the "StartPage" frame into the gray area that surrounds it. That way, we can separate the orignal component from its instances to edit it. In the `Layers` bar, the "ImprintText" component will, therefore, no longer be shown within the "StartPage" hierarchy, but on the same level as both the "StartPage" and the "ImprintPage".
+Turn the "ImprintText" object into a component (see above). Subsequently, drag-and-drop it from the "StartPage" frame into the gray area that surrounds it. That way, we can separate the orignal component, which we want to edit, from its instances. In the `Layers` area, the "ImprintText" component will no longer be shown within the "StartPage" hierarchy, but on the same level as both the "StartPage" and the "ImprintPage".
 
 We can now create two different variants of our "ImprintText" component that correspond to two different types of user interaction:
 1. "Default": when there is no user interaction,
 2. "Hover": when a user's cursor hovers above the "ImprintText".
 
-Keep the "ImprintText" component selected. In the right-hand `Design` area, click `Variants`. Our component has now automatically been duplicated. The lower twin of the component should be highlighted (if not, select it); in the `Variants` section, enter "Hover" (replacing "Variant2") to designate `Property 1`. (When you highlight the upper variant of our component, its name should be "Default". Leave it like that.)
+Keep the "ImprintText" component selected. In the right-hand `Design` area, click `Variants`. Our component has now automatically been duplicated. The lower twin of the component should be highlighted (if not, select it); in the `Variants` section, rename that variant (from "Variant2") to "Hover" to designate `Property 1`. (When you highlight the upper variant of our component, its name should be "Default". Leave it like that.)
 
-![image of the two variants of the "ImprintText" component](howto_figma_08.png)
+![image of the two variants of the "ImprintText" component in the gray area next to the "StartPage" and "ImprintPage"](howto_figma_08.png)
 
-Now, we can design what it should look like when a cursor hovers over the "ImprintText". Twice double-click into the text and style it bold. You could also change the text color or add a drop shadow in the `Effects` segment.
+Now, we can design what it should look like when a cursor hovers over the "ImprintText". Twice double-click on the lower variant to highlight the text and style it bold. You could also change the text color, or add a drop shadow in the `Effects` segment.
 
-The next step is to define the interaction that triggers the "Hover" variant. To that end, select the (upper) "Default" variant. In the top of the right-hand control area, switch from the `Design` to the `Prototype` tab. Next to `Interactions`, click the `+`. In the `Interaction details` window that now pops up, choose `While hovering` - `Change to` - "Hover". Close the window. As long as the `Prototype` tab is active, the "Default" variant is now visually connected to the "Hover" variant through a purple arrow, indicating that the former will change to the latter when an event (a hover event, in our case) takes place.
+The next step is to define the interaction that triggers that "Hover" variant. To that end, select the (upper) "Default" variant. In the top of the right-hand control area, switch from the `Design` to the `Prototype` tab. Next to `Interactions`, click the `+`. In the `Interaction details` window that now pops up, choose `While hovering` - `Change to` - "Hover". Close the window. As long as the `Prototype` tab is active, the "Default" variant is now visually connected to the "Hover" variant through a purple arrow, indicating that the former will change to the latter when an event (a hover event, in this case) takes place.
 
 ![image of the two variants of the "ImprintText" component with interaction details](howto_figma_09.png)
 
-However, we also want the "ImprintText" component to link to the "ImprintPage" when clicked. For this, highlight the lower, "Hover" variant of the "ImprintText" component. In the `Prototype` section, click `+` and then select `On click` - `Navigate to` - "ImprintPage". A blue arrow now depicts the linking to the "ImprintPage".
+However, we also want the "ImprintText" component to link to the "ImprintPage" when clicked. For this, highlight the lower ("Hover") variant of the "ImprintText" component. In the `Prototype` section, click `+` and then select `On click` - `Navigate to` - "ImprintPage". A blue arrow will now visualize the linking to the "ImprintPage".
 
 ![image of the two variants of the "ImprintText" component with interaction and navigation details](howto_figma_10.png)
 
-The "ImprintText" component is now fully configured, and an instance of it can be implemented in the design of our "StartPage". From the left-hand `Assets` area, beneath `Local components`, drag-and-drop the component to the "ImprintFrame" of our "StartPage". Switch to `Present` mode and try out the hover event and linking.
+The "ImprintText" component is now fully configured, and an instance of it can be implemented in the design of the "StartPage". From the left-hand `Assets` area, beneath `Local components`, drag-and-drop the "ImprintText" component to the "ImprintFrame" of your "StartPage". Switch to `Present` mode and try out the hover event and linking.
 
 ### A More Complex Example: Create a Dropdown List
 
-There is an empty dropdown button in our "NavBar", which we can now prototype as well. Proceed as before: create a component out of the "DropDown" group, and drag-and-drop it into the gray area outside your pages. Create a "Hover" variant, which you can style by inverting its colors ("EditionBlue" text and border colors, "EditionWhite" fill color). Add an interaction that is triggered by a `Hover` event.
+There is an empty dropdown button in your "NavBar" that we can now prototype as well. Proceed as before: create a component out of the "DropDown" group, and drag-and-drop it into the gray area outside your pages (leave more space around it than before). Create a "Hover" variant, which you can style by inverting its colors ("EditionBlue" text and border colors, "EditionWhite" fill color). Add an interaction that is triggered by a `Hover` event.
 
 ![image of the two variants of the "DropDown" component with interaction details](howto_figma_11.png)
 
-We now have to design three states of the dropdown list to represent three different types of user interaction once they have clicked the dropdown button:
-1. "Click": when a user clicks on the button (the dropdown list opens, the button has an "EditionBlue" fill color, the two options have an "EditionWhite" fill color),
-2. "Hover1: when a user's cursor hovers over the first option of the open dropdown list (the button and the first option are blue, the second option is white),
-3. "Hover2": when a user's cursor hovers over the second option (the button and the second option are blue, the first option is white).
+We can now design three distinct states of the dropdown list to represent three different types of user interaction once a user's cursor hovers above the dropdown button:
+1. "Click": when a user clicks on the button (the dropdown list opens, the button gets an "EditionBlue" fill color, the two options have an "EditionWhite" fill color),
+2. "Hover1": when a user's cursor hovers over the first option of the open dropdown list (the button and the first option are blue, the second option is white),
+3. "Hover2": when a user's cursor hovers over the second option (blue button and second option, white first option segment).
 
-In the gray area of the central window, somewhere below the "DropDown" variant, design those three states. For this, you can copy-paste the "DropDownText" and "DropDownShape" objects from the "DropDown" component in the `Layers` area and combine them to design the three versions described above. All of these versions should have three segments: a button ("Drop-down") and two fields representing links to other pages ("Somewhere" and "Nowhere"). Group the objects that belong together and rename the groups "DropDownOpen", "DropDownOpenHover1", and "DropDownOpenHover2".
+In the gray area of the central window, somewhere outside the purple dashed-line rectangle that marks the area of the "DropDown" component, design those three states. For this, you can copy-paste the "DropDownText" and "DropDownShape" objects from the "DropDown" component in the `Layers` area, and combine and style them to design the three states described above. All of these versions should have three segments: a button ("Drop-down") and two fields representing links to other pages (say, "Somewhere" and "Nowhere"). Group the objects that belong together and rename the groups "DropDownOpen", "DropDownOpenHover1", and "DropDownOpenHover2".
 
-![image of the two variants of the "DropDown" component as well as groups representing the three different states of the open dropdown list](howto_figma_12.png)
+![image of the two variants of the "DropDown" component as well as groups representing three different states of the opened dropdown list](howto_figma_12.png)
 
-Now, the groups representing the three different states of the opened dropdown list can be used as different variants of the "DropDown" component. So, select the "Hover" variant of the "DropDown" component and click on the `+`; rename "Variant3" to "Click". Enlarge the purple dash-line rectable that delimits the component variants. In the left-hand `Layers` area, select and copy all objects of the "DropDownOpen" group.
+Now, those groups representing the three different states of the opened dropdown list can be used as different variants of the "DropDown" component. To do that, first select the "Hover" variant of the "DropDown" component and click on the purple `+` icon that will appear next to it; rename "Variant3" to "Click". Enlarge the purple dashen-line rectangle that delimits the component variants. In the left-hand `Layers` area, select and copy all objects of the "DropDownOpen" group.
 
 ![image of the three variants of the "DropDown" component as well as the highlighted objects of the "DropDownOpen" group](howto_figma_13.png)
 
