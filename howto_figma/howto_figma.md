@@ -1,4 +1,4 @@
-# HowTo Figma [^1]
+# HowTo Figma
 
 Target group: readers who want to learn about (collaborative) UI (user interface, website) design, with or without prior knowledge in UI design
 
@@ -195,4 +195,6 @@ There is much community-driven support (both text and video) online that will he
 
 Find the Figma design file worked on in the example above [here](https://www.figma.com/file/XQVUuaMIQqOkVWp5Z0yLXi/Untitled).
 
-[^1]: This introduction is partly based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School *Digitale Editionen - Interface-Design*, University of Wuppertal, 21-25 Mar 2022, see Fabian's [contribution published to the Figma Community](https://www.figma.com/community/file/1093572965253747045).
+## References
+
+Parts of this introduction are based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School *Digitale Editionen - Interface-Design*, University of Wuppertal, 21-25 Mar 2022, see also Fabian's [contribution published to the Figma Community](https://www.figma.com/community/file/1093572965253747045).
