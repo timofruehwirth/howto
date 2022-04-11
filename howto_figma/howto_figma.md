@@ -6,7 +6,7 @@ Contents: introduction of Figma as a tool for (collaborative) UI design, exempli
 
 Aims:
 - readers can sign up to Figma and create teams
-- readers can create mock-ups in Figma
+- readers can create mock-ups of UIs (user interfaces) in Figma
 - readers can prototype UI functionality in Figma, including links and simple dropdown lists
 
 ## Introduction
@@ -191,10 +191,10 @@ Figure 18: Previewing your prototype.
 
 At this point, it may have become easy to see how a UI prototype can be further enriched by including more components whose variants, and the interrelations created between them, can add to realistically simulating website functionalities. It needs to be noted that there are many more functions than those introduced above, such as using the `Constraints` function to make your pages responsive, exporting CSS code from Figma, or Figma's build-in version control.
 
-There is much community-driven support (both text and video) online that will help you to explore the full potentials of Figma and solve specific problems that you encounter. [Figma's Support Forum](https://forum.figma.com/) might be a good starting point for getting in touch with the user community. You will also find a large number of public plugins for standard functionalities (including dropdown menus).
+There is much community-driven support (both text and video) online that will help you to explore the full potentials of Figma and solve specific problems that you encounter. [Figma's Community Forum](https://forum.figma.com/) might be a good starting point for getting in touch with the user community. You will also find a large number of public plugins for standard functionalities (including dropdown menus).
 
 Find the Figma design file worked on in the example above [here](https://www.figma.com/file/XQVUuaMIQqOkVWp5Z0yLXi/Untitled).
 
-## References
+## Acknowledgements
 
 Parts of this introduction are based on contents provided by Fabian Etling (CeDiS, Freie Universität Berlin) at ide 2022 Winter School *Digitale Editionen - Interface-Design*, University of Wuppertal, 21-25 Mar 2022, see also Fabian's [contribution published to the Figma Community](https://www.figma.com/community/file/1093572965253747045).
