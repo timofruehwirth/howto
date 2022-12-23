@@ -1,0 +1,686 @@
+{
+  "nodes": [
+    {
+      "name": "Stella Musulin",
+      "value": 37,
+      "colour": "#bde0f6"
+    },
+    {
+      "name": "W. H. Auden",
+      "value": 42,
+      "colour": "#808080"
+    },
+    {
+      "name": "Emma Eiermann",
+      "value": 2,
+      "colour": "#191970"
+    },
+    {
+      "name": "Chester Kallman",
+      "value": 22,
+      "colour": "#808080"
+    },
+    {
+      "name": "Elsa Musulin",
+      "value": 4,
+      "colour": "#808080"
+    },
+    {
+      "name": "Christiane Zimmer",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "Marko Musulin",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Father Lustkandl",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Maria Seitz",
+      "value": 4,
+      "colour": "#9a9a00"
+    },
+    {
+      "name": "Josef Seitz",
+      "value": 1,
+      "colour": "#48D1CC"
+    },
+    {
+      "name": "Gesellschaft für Literatur",
+      "value": 5,
+      "colour": "#ce3b59"
+    },
+    {
+      "name": "Thomas Bernhard",
+      "value": 3,
+      "colour": "#DDA0DD"
+    },
+    {
+      "name": "Friedrich Heer",
+      "value": 3,
+      "colour": "#808080"
+    },
+    {
+      "name": "Austrian student at the College of Technology",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Some of Auden's translators",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Austro-British Council",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "students of Eng. Lit.",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "dons, writers and critics from eastern and western Europe",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "journalists and a few public figures",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Francis Bondy",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Mary McCarthy",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "Yefrim Etkind",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "Marcel Reich-Ranicki",
+      "value": 1,
+      "colour": "#FFD700"
+    },
+    {
+      "name": "Philip Toynbee",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "Sally Toynbee",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Hilde Spiel",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Josefa Strobl",
+      "value": 4,
+      "colour": "#808080"
+    },
+    {
+      "name": "Stella Musulin's brother-in-law",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "St. Pölten hospital",
+      "value": 2,
+      "colour": "#808080"
+    },
+    {
+      "name": "Wild grocers",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Auden's callboy Hugie",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Jean Boras",
+      "value": 3,
+      "colour": "#808080"
+    },
+    {
+      "name": "Guests including journalists",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Governor of Lower Austria",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "Janko Musulin",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "listeners at Neulengbach speech",
+      "value": 1,
+      "colour": "#808080"
+    },
+    {
+      "name": "the one-whose-name-we-never-mention",
+      "value": 1,
+      "colour": "#808080"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "value": 38
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 14
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "value": 3
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "value": 11
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "value": 4
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "value": 16
+    },
+    {
+      "source": 10,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 20,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 1,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 20,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 20,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 21,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 20,
+      "value": 2
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 20,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 23,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 23,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 20,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 23,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 26,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 27,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 28,
+      "value": 3
+    },
+    {
+      "source": 1,
+      "target": 28,
+      "value": 2
+    },
+    {
+      "source": 0,
+      "target": 29,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 29,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 30,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 31,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 31,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 32,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 33,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 34,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 35,
+      "value": 1
+    },
+    {
+      "source": 33,
+      "target": 35,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 36,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 36,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 1
+    }
+  ]
+}
