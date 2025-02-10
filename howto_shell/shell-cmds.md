@@ -45,3 +45,26 @@ scan all files on system
 ```bash
 clamscan --recursive /
 ```
+## VS Code
+open in current directory
+```bash
+code .
+```
+open terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
+## Python venv
+create venv
+```bash
+python -m venv venv
+```
+activate venv
+```bash
+source venv/bin/activate
+```
+deactivate venv
+```bash
+deactivate
+```
+install required packages
+```bash
+pip install -r requirements.txt
+```
