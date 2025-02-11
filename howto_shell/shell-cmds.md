@@ -1,3 +1,12 @@
+## files and directories
+create new file
+```shell
+touch [file-name]
+```
+create new directory
+```shell
+mkdir [directory-name]
+```
 ## apt
 update apt package list (to obtain information on newest versions)
 ```shell
