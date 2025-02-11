@@ -66,5 +66,5 @@ deactivate
 ```
 install required packages
 ```console
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
