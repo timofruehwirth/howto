@@ -2,11 +2,11 @@ open terminal: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd>
 ## files and directories
 create new file
 ```shell
-touch [file-name]
+touch FILE-NAME
 ```
 create new directory
 ```shell
-mkdir [directory-name]
+mkdir DIRECTORY-NAME
 ```
 ## apt
 update apt package list (to obtain information on newest versions)
@@ -23,11 +23,11 @@ apt autoremove
 ```
 install apt packages on the system
 ```shell
-apt install [package-name]
+apt install PACKAGE-NAME
 ```
 remove apt packages from the system
 ```shell
-apt remove [package-name]
+apt remove PACKAGE-NAME
 ```
 ## snap
 update snap packages
@@ -36,11 +36,11 @@ snap refresh
 ```
 install snap packages on the system
 ```shell
-snap install [package-name]
+snap install PACKAGE-NAME
 ```
 remove snap packages from the system
 ```shell
-snap remove [package-name]
+snap remove PACKAGE-NAME
 ```
 ## ClamAV
 update signature databases
@@ -77,4 +77,9 @@ deactivate
 install required packages
 ```shell
 pip install -r requirements.txt
+```
+## ImageMagick
+convert image file format (v6.9.12)
+```shell
+convert FILE-NAME FILE-NAME
 ```
