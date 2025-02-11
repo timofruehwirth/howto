@@ -1,3 +1,4 @@
+open terminal: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd>
 ## files and directories
 create new file
 ```shell
@@ -59,7 +60,7 @@ open in current directory
 ```shell
 code .
 ```
-open terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
+open VS Code terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
 ## Python venv
 create venv
 ```shell
