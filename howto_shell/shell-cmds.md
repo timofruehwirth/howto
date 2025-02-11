@@ -53,11 +53,11 @@ code .
 open terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
 ## Python venv
 create venv
-```bash
+```console
 python -m venv venv
 ```
 activate venv
-```bash
+```console
 source venv/bin/activate
 ```
 deactivate venv
@@ -65,6 +65,6 @@ deactivate venv
 deactivate
 ```
 install required packages
-```bash
+```console
 pip install -r requirements.txt
 ```
