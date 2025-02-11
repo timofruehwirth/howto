@@ -4,6 +4,10 @@ create new file
 ```shell
 touch FILE-NAME
 ```
+delete file
+```shell
+rm FILE-NAME
+```
 create new directory
 ```shell
 mkdir DIRECTORY-NAME
