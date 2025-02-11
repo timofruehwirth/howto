@@ -1,59 +1,59 @@
 ## apt
 update apt package list (to obtain information on newest versions)
-```console
+```shell
 apt update
 ```
 fetch newest versions of apt packages and remove packages if necessary
-```bash
+```shell
 apt full-upgrade
 ```
 remove obsolete packages after upgrade or removal
-```bash
+```shell
 apt autoremove
 ```
 install apt packages on the system
-```bash
+```shell
 apt install [package-name]
 ```
 remove apt packages from the system
-```bash
+```shell
 apt remove [package-name]
 ```
 ## snap
 update snap packages
-```bash
+```shell
 snap refresh
 ```
 install snap packages on the system
-```bash
+```shell
 snap install [package-name]
 ```
 remove snap packages from the system
-```bash
+```shell
 snap remove [package-name]
 ```
 ## ClamAV
 update signature databases
-```bash
+```shell
 freshclam
 ```
 scan all files in current directory
-```bash
+```shell
 clamscan --recursive .
 ```
 scan all files on system
-```zsh
+```shell
 clamscan --recursive /
 ```
 ## VS Code
 open in current directory
-```bash
+```shell
 code .
 ```
 open terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
 ## Python venv
 create venv
-```sh
+```shell
 python -m venv venv
 ```
 activate venv
@@ -61,10 +61,10 @@ activate venv
 source venv/bin/activate
 ```
 deactivate venv
-```bash
+```shell
 deactivate
 ```
 install required packages
-```console
+```shell
 pip install -r requirements.txt
 ```
