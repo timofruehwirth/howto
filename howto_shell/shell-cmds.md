@@ -1,6 +1,6 @@
 ## apt
 update apt package list (to obtain information on newest versions)
-```bash
+```console
 apt update
 ```
 fetch newest versions of apt packages and remove packages if necessary
