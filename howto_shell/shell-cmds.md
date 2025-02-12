@@ -4,6 +4,10 @@ create new file
 ```shell
 touch FILE-NAME
 ```
+copy (and rename) file
+```shell
+cp FILE-NAME FILE-NAME
+```
 delete file
 ```shell
 rm FILE-NAME
