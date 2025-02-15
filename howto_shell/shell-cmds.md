@@ -1,5 +1,21 @@
 open terminal: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd>
 ## files and directories
+navigate to child directory
+```shell
+cd DIRECTORY-NAME
+```
+navigate to parent directory
+```shell
+cd ..
+```
+navigate to sibling directory
+```shell
+cd ../DIRECTORY-NAME
+```
+navigate to user directory
+```shell
+cd ~
+```
 create new file
 ```shell
 touch FILE-NAME
@@ -16,44 +32,53 @@ create new directory
 ```shell
 mkdir DIRECTORY-NAME
 ```
+## shell output
+return to command line from shell output
+```shell
+:q
+```
 ## apt
 update apt package list (to obtain information on newest versions)
 ```shell
-apt update
+sudo apt update
 ```
 fetch newest versions of apt packages and remove packages if necessary
 ```shell
-apt full-upgrade
+sudo apt full-upgrade
 ```
 remove obsolete packages after upgrade or removal
 ```shell
-apt autoremove
+sudo apt autoremove
 ```
 install apt packages on the system
 ```shell
-apt install PACKAGE-NAME
+sudo apt install PACKAGE-NAME
 ```
 remove apt packages from the system
 ```shell
-apt remove PACKAGE-NAME
+sudo apt remove PACKAGE-NAME
 ```
 ## snap
 update snap packages
 ```shell
-snap refresh
+sudo snap refresh
 ```
 install snap packages on the system
 ```shell
-snap install PACKAGE-NAME
+sudo snap install PACKAGE-NAME
 ```
 remove snap packages from the system
 ```shell
-snap remove PACKAGE-NAME
+sudo snap remove PACKAGE-NAME
 ```
 ## ClamAV
 update signature databases
 ```shell
-freshclam
+sudo freshclam
+```
+kill freshclam started by ClamAV daemon before manual freshclam
+```shell
+sudo killall freshclam
 ```
 scan all files in current directory
 ```shell
@@ -90,4 +115,17 @@ pip install -r requirements.txt
 convert image file format (v6.9.12)
 ```shell
 convert FILE-NAME FILE-NAME
+```
+## shutdown and restart
+shutdown in under a minute
+```shell
+shutdown -h
+```
+restart in under a minute
+```shell
+shutdown -r
+```
+cancel scheduled shutdown/restart
+```shell
+shutdown -c
 ```
