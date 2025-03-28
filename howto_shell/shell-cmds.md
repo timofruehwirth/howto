@@ -32,6 +32,10 @@ create new directory
 ```shell
 mkdir DIRECTORY-NAME
 ```
+remove non-empty directory
+```shell
+rm -r DIRECTORY-NAME
+```
 ## shell output
 return to command line from shell output
 ```shell
@@ -70,6 +74,23 @@ sudo snap install PACKAGE-NAME
 remove snap packages from the system
 ```shell
 sudo snap remove PACKAGE-NAME
+```
+## ufw
+enable ufw
+```shell
+sudo ufw enable
+```
+deny incoming traffic
+```shell
+sudo ufw default deny incoming
+```
+allow outgoing traffic
+```shell
+sudo ufw default allow outgoing
+```
+check status
+```shell
+sudo ufw status verbose
 ```
 ## ClamAV
 update signature databases
