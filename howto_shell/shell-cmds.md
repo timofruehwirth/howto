@@ -20,9 +20,13 @@ create new file
 ```shell
 touch FILE-NAME
 ```
-copy (and rename) file
+copy file
 ```shell
 cp FILE-NAME FILE-NAME
+```
+rename file
+```shell
+mv FILE-NAME FILE-NAME
 ```
 delete file
 ```shell
