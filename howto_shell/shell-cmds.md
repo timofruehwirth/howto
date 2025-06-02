@@ -40,6 +40,11 @@ remove non-empty directory
 ```shell
 rm -r DIRECTORY-NAME
 ```
+## run program
+execute script or program in current directory
+```shell
+./FILE-NAME
+```
 ## shell output
 return to command line from shell output
 ```shell
