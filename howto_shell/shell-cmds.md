@@ -1,5 +1,9 @@
 open terminal: <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd>
 ## files and directories
+print path of working directory
+```shell
+pwd
+```
 navigate to child directory
 ```shell
 cd DIRECTORY-NAME
