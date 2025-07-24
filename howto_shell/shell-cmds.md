@@ -28,7 +28,7 @@ copy file
 ```shell
 cp FILE-NAME FILE-NAME
 ```
-rename file
+move or rename file
 ```shell
 mv FILE-NAME FILE-NAME
 ```
