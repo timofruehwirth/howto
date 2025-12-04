@@ -163,3 +163,7 @@ cancel scheduled shutdown/restart
 ```shell
 shutdown -c
 ```
+## XSLT transformation
+```shell
+java -jar /usr/share/java/Saxon-HE.jar -xsl:FILE-NAME -s:FILE-NAME -o:FILE-NAME
+```
