@@ -145,6 +145,15 @@ install required packages
 ```shell
 pip install -r requirements.txt
 ```
+### enable Python env to function as Jupyter kernel
+install kernel
+```shell
+pip install ipykernel
+```
+register kernel
+```shell
+python -m ipykernel install --user --name=SOME-NAME --display-name="Python (SOME-NAME)"
+```
 ## ImageMagick
 convert image file format (v6.9.12)
 ```shell
