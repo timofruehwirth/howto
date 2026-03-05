@@ -127,7 +127,13 @@ open in current directory
 ```shell
 code .
 ```
+comment out: <kbd>ctrl</kbd> + <kbd>/</kbd>
+
 open VS Code terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
+
+increase indentation of highlighted lines: <kbd>tab</kbd>
+
+decrease indentation of highlighted lines: <kbd>shift</kbd> + <kbd>tab</kbd>
 ## Python venv
 create venv
 ```shell
