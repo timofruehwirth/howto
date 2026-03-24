@@ -134,6 +134,8 @@ open VS Code terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>`</kbd>
 increase indentation of highlighted lines: <kbd>tab</kbd>
 
 decrease indentation of highlighted lines: <kbd>shift</kbd> + <kbd>tab</kbd>
+
+align line display with screen width: <kbd>alt</kbd> + <kbd>z</kbd>
 ## Python venv
 create venv
 ```shell
@@ -182,3 +184,5 @@ shutdown -c
 ```shell
 java -jar /usr/share/java/Saxon-HE.jar -xsl:FILE-NAME -s:FILE-NAME -o:FILE-NAME
 ```
+## oXygen
+align line display with screen width: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>y</kbd>
