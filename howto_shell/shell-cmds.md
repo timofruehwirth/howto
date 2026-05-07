@@ -20,6 +20,18 @@ navigate to user directory
 ```shell
 cd ~
 ```
+show directory tree with files
+```shell
+tree /DIRECTORY-NAME
+```
+show directory tree without files
+```shell
+tree -d /DIRECTORY-NAME
+```
+show top 2 levels of directory tree
+```shell
+tree -L 2 /DIRECTORY-NAME
+```
 create new file
 ```shell
 touch FILE-NAME
