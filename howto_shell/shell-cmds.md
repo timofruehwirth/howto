@@ -56,6 +56,10 @@ remove non-empty directory
 ```shell
 rm -r DIRECTORY-NAME
 ```
+force-remove non-empty directory (which contains write-protected files)
+```shell
+rm -rf DIRECTORY-NAME
+```
 ## run program
 execute script or program in current directory
 ```shell
